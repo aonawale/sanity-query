@@ -26,4 +26,4 @@
 
 #### Defined in
 
-types/query-constraint.ts:4
+[types/query-constraint.ts:4](https://github.com/aonawale/sanity-query/blob/95289de/src/types/query-constraint.ts#L4)

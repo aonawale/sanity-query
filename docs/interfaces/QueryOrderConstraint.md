@@ -24,7 +24,7 @@
 
 #### Defined in
 
-types/query-constraint.ts:27
+[types/query-constraint.ts:27](https://github.com/aonawale/sanity-query/blob/95289de/src/types/query-constraint.ts#L27)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-types/query-constraint.ts:25
+[types/query-constraint.ts:25](https://github.com/aonawale/sanity-query/blob/95289de/src/types/query-constraint.ts#L25)
 
 ___
 
@@ -48,4 +48,4 @@ ___
 
 #### Defined in
 
-types/query-constraint.ts:23
+[types/query-constraint.ts:23](https://github.com/aonawale/sanity-query/blob/95289de/src/types/query-constraint.ts#L23)

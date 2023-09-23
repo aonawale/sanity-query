@@ -34,7 +34,7 @@
 
 #### Defined in
 
-types/query-constraint.ts:2
+[types/query-constraint.ts:2](https://github.com/aonawale/sanity-query/blob/95289de/src/types/query-constraint.ts#L2)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-types/query-constraint.ts:8
+[types/query-constraint.ts:8](https://github.com/aonawale/sanity-query/blob/95289de/src/types/query-constraint.ts#L8)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-types/query-constraint.ts:20
+[types/query-constraint.ts:20](https://github.com/aonawale/sanity-query/blob/95289de/src/types/query-constraint.ts#L20)
 
 ## Functions
 
@@ -108,7 +108,7 @@ console.log(queryString)
 
 #### Defined in
 
-query-builder/query-builder.ts:141
+[query-builder/query-builder.ts:141](https://github.com/aonawale/sanity-query/blob/95289de/src/query-builder/query-builder.ts#L141)
 
 ___
 
@@ -157,7 +157,7 @@ console.log(documents)
 
 #### Defined in
 
-query/query.ts:31
+[query/query.ts:31](https://github.com/aonawale/sanity-query/blob/95289de/src/query/query.ts#L31)
 
 ___
 
@@ -189,7 +189,7 @@ const filterQuery = filter('name', 'match', 'John')
 
 #### Defined in
 
-query-constraint/query-constraint.ts:18
+[query-constraint/query-constraint.ts:18](https://github.com/aonawale/sanity-query/blob/95289de/src/query-constraint/query-constraint.ts#L18)
 
 ___
 
@@ -220,7 +220,7 @@ const orderQuery = order('age', 'asc')
 
 #### Defined in
 
-query-constraint/query-constraint.ts:37
+[query-constraint/query-constraint.ts:37](https://github.com/aonawale/sanity-query/blob/95289de/src/query-constraint/query-constraint.ts#L37)
 
 ___
 
@@ -252,4 +252,4 @@ const sliceQuery = slice(0, 10, true)
 
 #### Defined in
 
-query-constraint/query-constraint.ts:52
+[query-constraint/query-constraint.ts:52](https://github.com/aonawale/sanity-query/blob/95289de/src/query-constraint/query-constraint.ts#L52)
