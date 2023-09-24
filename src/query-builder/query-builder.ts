@@ -38,7 +38,7 @@ const findConstraints = <T>(constraints: QueryConstraint[], type: QueryConstrain
  * ]
  * const filterQueryString = filterQuery(constraints)
  * console.log(filterQueryString)
- * => [name match 'John'] && [age >= 18]
+ * => `name match 'John' && 'age' >= 18`
  */
 const filterQuery = (constraints: QueryFilterConstraint[]) =>
   constraints

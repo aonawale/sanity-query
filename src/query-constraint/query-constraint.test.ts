@@ -2,17 +2,17 @@ import {filter, order, slice} from './query-constraint'
 
 describe('query-constraint', () => {
   it('filter', () => {
-    expect(filter('name', '==', `'Sanity'`)).toEqual({
+    expect(filter('name', '==', 'Sanity')).toEqual({
       field: 'name',
       operator: '==',
       type: 'filter',
       value: "'Sanity'",
     })
-    expect(filter('name', '!=', `'Sanity'`)).toEqual({
-      field: 'name',
+    expect(filter('discount', '!=', null)).toEqual({
+      field: 'discount',
       operator: '!=',
       type: 'filter',
-      value: "'Sanity'",
+      value: 'null',
     })
     expect(filter('age', '>', 18)).toEqual({field: 'age', operator: '>', type: 'filter', value: 18})
     expect(filter('age', '<', 18)).toEqual({field: 'age', operator: '<', type: 'filter', value: 18})
@@ -28,17 +28,17 @@ describe('query-constraint', () => {
       type: 'filter',
       value: 18,
     })
-    expect(filter('tag', 'in', `["new", "old"]`)).toEqual({
+    expect(filter('tag', 'in', ['new', 'old'])).toEqual({
       field: 'tag',
       operator: 'in',
       type: 'filter',
-      value: '["new", "old"]',
+      value: '["new","old"]',
     })
-    expect(filter('text', 'match', `"textbook"`)).toEqual({
+    expect(filter('text', 'match', 'textbook')).toEqual({
       field: 'text',
       operator: 'match',
       type: 'filter',
-      value: '"textbook"',
+      value: "'textbook'",
     })
     expect(
       filter('references(*[_type=="discount" && dateTime(endDate) >= dateTime(now())]._id)'),

@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[types/query.ts:5](https://github.com/aonawale/sanity-query/blob/95289de/src/types/query.ts#L5)
+[types/query.ts:5](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query.ts#L5)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[types/query.ts:7](https://github.com/aonawale/sanity-query/blob/95289de/src/types/query.ts#L7)
+[types/query.ts:7](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query.ts#L7)

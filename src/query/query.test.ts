@@ -14,7 +14,7 @@ const projection = `
 
 const query = {
   constraints: [
-    filter('name', '==', "'Sanity'"),
+    filter('name', '==', 'Sanity'),
     filter('age', '>', 18),
     order('name', 'asc'),
     order('age', 'desc'),

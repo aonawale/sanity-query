@@ -2,7 +2,7 @@ import {filter, order, slice} from '../query-constraint'
 import {buildQuery, findConstraints, filterQuery, orderQuery, sliceQuery} from './query-builder'
 
 const constraints = [
-  filter('name', '==', "'Sanity'"),
+  filter('name', '==', 'Sanity'),
   filter('age', '>', 18),
   order('name', 'asc'),
   order('age', 'desc'),

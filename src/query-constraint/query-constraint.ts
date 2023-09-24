@@ -6,6 +6,13 @@ import {
   QuerySliceConstraint,
 } from '../types/query-constraint'
 
+const serializeValue = (value?: unknown) => {
+  if (value === null) return 'null'
+  if (typeof value === 'string') return `'${value}'`
+  if (Array.isArray(value)) return JSON.stringify(value)
+  return value
+}
+
 /**
  * A function that builds a filter query.
  * @param field - The field to apply the filter on.
@@ -23,7 +30,7 @@ const filter = (
   type: 'filter',
   field,
   operator,
-  value,
+  value: serializeValue(value),
 })
 
 /**
