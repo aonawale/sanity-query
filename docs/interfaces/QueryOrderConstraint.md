@@ -1,51 +1,41 @@
-[@aonawale/sanity-query](../README.md) / [Exports](../modules.md) / QueryOrderConstraint
+[**@aonawale/sanity-query**](../README.md)
+
+***
+
+[@aonawale/sanity-query](../globals.md) / QueryOrderConstraint
 
 # Interface: QueryOrderConstraint
 
-## Hierarchy
+Defined in: [types/query-constraint.ts:21](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L21)
+
+## Extends
 
 - [`QueryConstraint`](QueryConstraint.md)
-
-  ↳ **`QueryOrderConstraint`**
-
-## Table of contents
-
-### Properties
-
-- [direction](QueryOrderConstraint.md#direction)
-- [field](QueryOrderConstraint.md#field)
-- [type](QueryOrderConstraint.md#type)
 
 ## Properties
 
 ### direction
 
-• **direction**: [`QueryOrderConstraintDirection`](../modules.md#queryorderconstraintdirection)
+> **direction**: [`QueryOrderConstraintDirection`](../type-aliases/QueryOrderConstraintDirection.md)
 
-#### Defined in
+Defined in: [types/query-constraint.ts:27](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L27)
 
-[types/query-constraint.ts:27](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query-constraint.ts#L27)
-
-___
+***
 
 ### field
 
-• **field**: `string`
+> **field**: `string`
 
-#### Defined in
+Defined in: [types/query-constraint.ts:25](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L25)
 
-[types/query-constraint.ts:25](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query-constraint.ts#L25)
-
-___
+***
 
 ### type
 
-• **type**: ``"order"``
+> **type**: `"order"`
+
+Defined in: [types/query-constraint.ts:23](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L23)
 
 #### Overrides
 
-[QueryConstraint](QueryConstraint.md).[type](QueryConstraint.md#type)
-
-#### Defined in
-
-[types/query-constraint.ts:23](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query-constraint.ts#L23)
+[`QueryConstraint`](QueryConstraint.md).[`type`](QueryConstraint.md#type)

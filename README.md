@@ -3,4 +3,4 @@
 Sanity query
 
 ### Full API
-[Here](./docs/modules.md)
+[Here](./docs/README.md)

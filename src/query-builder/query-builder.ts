@@ -23,22 +23,22 @@ const findConstraints = <T>(constraints: QueryConstraint[], type: QueryConstrain
  * @returns A filter query string.
  * @example
  * const constraints = [
- *  {
+ *  \{
  *    type: 'filter',
  *    field: 'name',
  *    operator: 'match',
  *    value: 'John',
- *  },
- *  {
+ *  \},
+ *  \{
  *    type: 'filter',
  *    field: 'age',
- *    operator: '>=',
+ *    operator: '\>=',
  *    value: 18,
- *  },
+ *  \},
  * ]
  * const filterQueryString = filterQuery(constraints)
  * console.log(filterQueryString)
- * => `name match 'John' && 'age' >= 18`
+ * =\> `name match 'John' && 'age' \>= 18`
  */
 const filterQuery = (constraints: QueryFilterConstraint[]) =>
   constraints
@@ -58,20 +58,20 @@ const filterQuery = (constraints: QueryFilterConstraint[]) =>
  * @returns An order query string.
  * @example
  * const constraints = [
- *  {
+ *  \{
  *    type: 'order',
  *    field: 'age',
  *    direction: 'asc',
- *  },
- *  {
+ *  \},
+ *  \{
  *    type: 'order',
  *    field: 'name',
  *    direction: 'desc',
- *  },
+ *  \},
  * ]
  * const orderQueryString = orderQuery(constraints)
  * console.log(orderQueryString)
- * => order(age asc) | order(name desc)
+ * =\> order(age asc) | order(name desc)
  */
 const orderQuery = (constraints: QueryOrderConstraint[]) =>
   constraints
@@ -83,15 +83,15 @@ const orderQuery = (constraints: QueryOrderConstraint[]) =>
  * @param constraint - A slice constraint.
  * @returns A slice query string.
  * @example
- * const constraint = {
+ * const constraint = \{
  *  type: 'slice',
  *  startIndex: 0,
  *  endIndex: 10,
  *  inclusive: false,
- * }
+ * \}
  * const sliceQueryString = sliceQuery(constraint)
  * console.log(sliceQueryString)
- * => [0...10]
+ * =\> [0...10]
  */
 const sliceQuery = (constraint: QuerySliceConstraint) => {
   const parts = [`[${constraint.startIndex}`]
@@ -112,31 +112,31 @@ const sliceQuery = (constraint: QuerySliceConstraint) => {
  * @param query - A query object. (Optional).
  * @returns A query string.
  * @example
- * const query = {
+ * const query = \{
  *  constraints: [
- *   {
+ *   \{
  *     type: 'filter',
  *     field: 'name',
  *     operator: 'match',
  *     value: 'John',
- *   },
- *   {
+ *   \},
+ *   \{
  *     type: 'order',
  *     field: 'age',
  *     direction: 'asc',
- *    },
- *    {
+ *    \},
+ *    \{
  *     type: 'slice',
  *     startIndex: 0,
  *     endIndex: 10,
  *     inclusive: false,
- *    },
+ *    \},
  *  ],
  *  ordering: 'selection',
- * }
+ * \}
  * const queryString = buildQuery(query)
  * console.log(queryString)
- * => *[name match 'John'] | order(age asc) [0...10]
+ * =\> *[name match 'John'] | order(age asc) [0...10]
  */
 const buildQuery = (query: Query) => {
   const constraints = query?.constraints || []

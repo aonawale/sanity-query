@@ -1,29 +1,23 @@
-[@aonawale/sanity-query](../README.md) / [Exports](../modules.md) / QueryConstraint
+[**@aonawale/sanity-query**](../README.md)
+
+***
+
+[@aonawale/sanity-query](../globals.md) / QueryConstraint
 
 # Interface: QueryConstraint
 
-## Hierarchy
+Defined in: [types/query-constraint.ts:3](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L3)
 
-- **`QueryConstraint`**
+## Extended by
 
-  ↳ [`QueryFilterConstraint`](QueryFilterConstraint.md)
-
-  ↳ [`QueryOrderConstraint`](QueryOrderConstraint.md)
-
-  ↳ [`QuerySliceConstraint`](QuerySliceConstraint.md)
-
-## Table of contents
-
-### Properties
-
-- [type](QueryConstraint.md#type)
+- [`QueryFilterConstraint`](QueryFilterConstraint.md)
+- [`QueryOrderConstraint`](QueryOrderConstraint.md)
+- [`QuerySliceConstraint`](QuerySliceConstraint.md)
 
 ## Properties
 
 ### type
 
-• **type**: [`QueryConstraintType`](../modules.md#queryconstrainttype)
+> **type**: [`QueryConstraintType`](../type-aliases/QueryConstraintType.md)
 
-#### Defined in
-
-[types/query-constraint.ts:4](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query-constraint.ts#L4)
+Defined in: [types/query-constraint.ts:4](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L4)

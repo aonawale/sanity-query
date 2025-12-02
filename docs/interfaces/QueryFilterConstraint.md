@@ -1,62 +1,49 @@
-[@aonawale/sanity-query](../README.md) / [Exports](../modules.md) / QueryFilterConstraint
+[**@aonawale/sanity-query**](../README.md)
+
+***
+
+[@aonawale/sanity-query](../globals.md) / QueryFilterConstraint
 
 # Interface: QueryFilterConstraint
 
-## Hierarchy
+Defined in: [types/query-constraint.ts:9](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L9)
+
+## Extends
 
 - [`QueryConstraint`](QueryConstraint.md)
-
-  ↳ **`QueryFilterConstraint`**
-
-## Table of contents
-
-### Properties
-
-- [field](QueryFilterConstraint.md#field)
-- [operator](QueryFilterConstraint.md#operator)
-- [type](QueryFilterConstraint.md#type)
-- [value](QueryFilterConstraint.md#value)
 
 ## Properties
 
 ### field
 
-• **field**: `string`
+> **field**: `string`
 
-#### Defined in
+Defined in: [types/query-constraint.ts:13](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L13)
 
-[types/query-constraint.ts:13](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query-constraint.ts#L13)
+***
 
-___
+### operator?
 
-### operator
+> `optional` **operator**: [`QueryFilterConstraintOperator`](../type-aliases/QueryFilterConstraintOperator.md)
 
-• `Optional` **operator**: [`QueryFilterConstraintOperator`](../modules.md#queryfilterconstraintoperator)
+Defined in: [types/query-constraint.ts:15](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L15)
 
-#### Defined in
-
-[types/query-constraint.ts:15](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query-constraint.ts#L15)
-
-___
+***
 
 ### type
 
-• **type**: ``"filter"``
+> **type**: `"filter"`
+
+Defined in: [types/query-constraint.ts:11](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L11)
 
 #### Overrides
 
-[QueryConstraint](QueryConstraint.md).[type](QueryConstraint.md#type)
+[`QueryConstraint`](QueryConstraint.md).[`type`](QueryConstraint.md#type)
 
-#### Defined in
+***
 
-[types/query-constraint.ts:11](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query-constraint.ts#L11)
+### value?
 
-___
+> `optional` **value**: `unknown`
 
-### value
-
-• `Optional` **value**: `unknown`
-
-#### Defined in
-
-[types/query-constraint.ts:17](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query-constraint.ts#L17)
+Defined in: [types/query-constraint.ts:17](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L17)

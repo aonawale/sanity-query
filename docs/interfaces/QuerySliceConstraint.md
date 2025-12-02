@@ -1,62 +1,49 @@
-[@aonawale/sanity-query](../README.md) / [Exports](../modules.md) / QuerySliceConstraint
+[**@aonawale/sanity-query**](../README.md)
+
+***
+
+[@aonawale/sanity-query](../globals.md) / QuerySliceConstraint
 
 # Interface: QuerySliceConstraint
 
-## Hierarchy
+Defined in: [types/query-constraint.ts:30](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L30)
+
+## Extends
 
 - [`QueryConstraint`](QueryConstraint.md)
 
-  ↳ **`QuerySliceConstraint`**
-
-## Table of contents
-
-### Properties
-
-- [endIndex](QuerySliceConstraint.md#endindex)
-- [inclusive](QuerySliceConstraint.md#inclusive)
-- [startIndex](QuerySliceConstraint.md#startindex)
-- [type](QuerySliceConstraint.md#type)
-
 ## Properties
 
-### endIndex
+### endIndex?
 
-• `Optional` **endIndex**: `number`
+> `optional` **endIndex**: `number`
 
-#### Defined in
+Defined in: [types/query-constraint.ts:36](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L36)
 
-[types/query-constraint.ts:36](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query-constraint.ts#L36)
+***
 
-___
+### inclusive?
 
-### inclusive
+> `optional` **inclusive**: `boolean`
 
-• `Optional` **inclusive**: `boolean`
+Defined in: [types/query-constraint.ts:38](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L38)
 
-#### Defined in
-
-[types/query-constraint.ts:38](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query-constraint.ts#L38)
-
-___
+***
 
 ### startIndex
 
-• **startIndex**: `number`
+> **startIndex**: `number`
 
-#### Defined in
+Defined in: [types/query-constraint.ts:34](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L34)
 
-[types/query-constraint.ts:34](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query-constraint.ts#L34)
-
-___
+***
 
 ### type
 
-• **type**: ``"slice"``
+> **type**: `"slice"`
+
+Defined in: [types/query-constraint.ts:32](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L32)
 
 #### Overrides
 
-[QueryConstraint](QueryConstraint.md).[type](QueryConstraint.md#type)
-
-#### Defined in
-
-[types/query-constraint.ts:32](https://github.com/aonawale/sanity-query/blob/8a2da8a/src/types/query-constraint.ts#L32)
+[`QueryConstraint`](QueryConstraint.md).[`type`](QueryConstraint.md#type)
