@@ -6,7 +6,7 @@
 
 # Interface: Query
 
-Defined in: [types/query.ts:3](https://github.com/aonawale/sanity-query/blob/1ce6c12e061c570199ba4b551babbeeb551f866a/src/types/query.ts#L3)
+Defined in: [types/query.ts:3](https://github.com/aonawale/sanity-query/blob/a6622dd509a20081fe8395cead622d5c7c518425/src/types/query.ts#L3)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types/query.ts:3](https://github.com/aonawale/sanity-query/blob/1ce
 
 > `optional` **constraints**: [`QueryConstraint`](QueryConstraint.md)[]
 
-Defined in: [types/query.ts:5](https://github.com/aonawale/sanity-query/blob/1ce6c12e061c570199ba4b551babbeeb551f866a/src/types/query.ts#L5)
+Defined in: [types/query.ts:5](https://github.com/aonawale/sanity-query/blob/a6622dd509a20081fe8395cead622d5c7c518425/src/types/query.ts#L5)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [types/query.ts:5](https://github.com/aonawale/sanity-query/blob/1ce
 
 > `optional` **ordering**: `"all"` \| `"selection"`
 
-Defined in: [types/query.ts:7](https://github.com/aonawale/sanity-query/blob/1ce6c12e061c570199ba4b551babbeeb551f866a/src/types/query.ts#L7)
+Defined in: [types/query.ts:7](https://github.com/aonawale/sanity-query/blob/a6622dd509a20081fe8395cead622d5c7c518425/src/types/query.ts#L7)

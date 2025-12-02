@@ -8,4 +8,4 @@
 
 > **QueryFilterConstraintOperator** = `"=="` \| `"!="` \| `"in"` \| `"<"` \| `"<="` \| `">"` \| `">="` \| `"match"`
 
-Defined in: [types/query-constraint.ts:8](https://github.com/aonawale/sanity-query/blob/1ce6c12e061c570199ba4b551babbeeb551f866a/src/types/query-constraint.ts#L8)
+Defined in: [types/query-constraint.ts:8](https://github.com/aonawale/sanity-query/blob/a6622dd509a20081fe8395cead622d5c7c518425/src/types/query-constraint.ts#L8)
