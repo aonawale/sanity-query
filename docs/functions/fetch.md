@@ -8,7 +8,7 @@
 
 > **fetch**\<`T`\>(`client`, `query`, `projection?`): `Promise`\<`T`\>
 
-Defined in: [query/query.ts:31](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/query/query.ts#L31)
+Defined in: [query/query.ts:31](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/query/query.ts#L31)
 
 A function that fetches documents from Sanity.
 

@@ -6,7 +6,7 @@
 
 # Interface: QueryFilterConstraint
 
-Defined in: [types/query-constraint.ts:9](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L9)
+Defined in: [types/query-constraint.ts:9](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/types/query-constraint.ts#L9)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [types/query-constraint.ts:9](https://github.com/aonawale/sanity-que
 
 > **field**: `string`
 
-Defined in: [types/query-constraint.ts:13](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L13)
+Defined in: [types/query-constraint.ts:13](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/types/query-constraint.ts#L13)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types/query-constraint.ts:13](https://github.com/aonawale/sanity-qu
 
 > `optional` **operator**: [`QueryFilterConstraintOperator`](../type-aliases/QueryFilterConstraintOperator.md)
 
-Defined in: [types/query-constraint.ts:15](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L15)
+Defined in: [types/query-constraint.ts:15](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/types/query-constraint.ts#L15)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [types/query-constraint.ts:15](https://github.com/aonawale/sanity-qu
 
 > **type**: `"filter"`
 
-Defined in: [types/query-constraint.ts:11](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L11)
+Defined in: [types/query-constraint.ts:11](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/types/query-constraint.ts#L11)
 
 #### Overrides
 
@@ -46,4 +46,4 @@ Defined in: [types/query-constraint.ts:11](https://github.com/aonawale/sanity-qu
 
 > `optional` **value**: `unknown`
 
-Defined in: [types/query-constraint.ts:17](https://github.com/aonawale/sanity-query/blob/ccea629feaa7d364546e60161f7413fcfd0fd329/src/types/query-constraint.ts#L17)
+Defined in: [types/query-constraint.ts:17](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/types/query-constraint.ts#L17)
