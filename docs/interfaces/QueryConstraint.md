@@ -6,7 +6,7 @@
 
 # Interface: QueryConstraint
 
-Defined in: [types/query-constraint.ts:3](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/types/query-constraint.ts#L3)
+Defined in: [types/query-constraint.ts:3](https://github.com/aonawale/sanity-query/blob/1ce6c12e061c570199ba4b551babbeeb551f866a/src/types/query-constraint.ts#L3)
 
 ## Extended by
 
@@ -20,4 +20,4 @@ Defined in: [types/query-constraint.ts:3](https://github.com/aonawale/sanity-que
 
 > **type**: [`QueryConstraintType`](../type-aliases/QueryConstraintType.md)
 
-Defined in: [types/query-constraint.ts:4](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/types/query-constraint.ts#L4)
+Defined in: [types/query-constraint.ts:4](https://github.com/aonawale/sanity-query/blob/1ce6c12e061c570199ba4b551babbeeb551f866a/src/types/query-constraint.ts#L4)

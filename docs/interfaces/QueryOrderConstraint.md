@@ -6,7 +6,7 @@
 
 # Interface: QueryOrderConstraint
 
-Defined in: [types/query-constraint.ts:21](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/types/query-constraint.ts#L21)
+Defined in: [types/query-constraint.ts:21](https://github.com/aonawale/sanity-query/blob/1ce6c12e061c570199ba4b551babbeeb551f866a/src/types/query-constraint.ts#L21)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [types/query-constraint.ts:21](https://github.com/aonawale/sanity-qu
 
 > **direction**: [`QueryOrderConstraintDirection`](../type-aliases/QueryOrderConstraintDirection.md)
 
-Defined in: [types/query-constraint.ts:27](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/types/query-constraint.ts#L27)
+Defined in: [types/query-constraint.ts:27](https://github.com/aonawale/sanity-query/blob/1ce6c12e061c570199ba4b551babbeeb551f866a/src/types/query-constraint.ts#L27)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types/query-constraint.ts:27](https://github.com/aonawale/sanity-qu
 
 > **field**: `string`
 
-Defined in: [types/query-constraint.ts:25](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/types/query-constraint.ts#L25)
+Defined in: [types/query-constraint.ts:25](https://github.com/aonawale/sanity-query/blob/1ce6c12e061c570199ba4b551babbeeb551f866a/src/types/query-constraint.ts#L25)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [types/query-constraint.ts:25](https://github.com/aonawale/sanity-qu
 
 > **type**: `"order"`
 
-Defined in: [types/query-constraint.ts:23](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/types/query-constraint.ts#L23)
+Defined in: [types/query-constraint.ts:23](https://github.com/aonawale/sanity-query/blob/1ce6c12e061c570199ba4b551babbeeb551f866a/src/types/query-constraint.ts#L23)
 
 #### Overrides
 

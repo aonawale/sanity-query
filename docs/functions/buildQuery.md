@@ -8,7 +8,7 @@
 
 > **buildQuery**(`query`): `string`
 
-Defined in: [query-builder/query-builder.ts:141](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/query-builder/query-builder.ts#L141)
+Defined in: [query-builder/query-builder.ts:141](https://github.com/aonawale/sanity-query/blob/1ce6c12e061c570199ba4b551babbeeb551f866a/src/query-builder/query-builder.ts#L141)
 
 A function that builds a query from a query object.
 

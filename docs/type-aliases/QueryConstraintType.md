@@ -8,4 +8,4 @@
 
 > **QueryConstraintType** = `"filter"` \| `"order"` \| `"slice"`
 
-Defined in: [types/query-constraint.ts:2](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/types/query-constraint.ts#L2)
+Defined in: [types/query-constraint.ts:2](https://github.com/aonawale/sanity-query/blob/1ce6c12e061c570199ba4b551babbeeb551f866a/src/types/query-constraint.ts#L2)

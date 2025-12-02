@@ -8,7 +8,7 @@
 
 > **slice**(`startIndex`, `endIndex?`, `inclusive?`): [`QuerySliceConstraint`](../interfaces/QuerySliceConstraint.md)
 
-Defined in: [query-constraint/query-constraint.ts:59](https://github.com/aonawale/sanity-query/blob/9c8d12dbea92a03a96ece5cebd74680c85cf190c/src/query-constraint/query-constraint.ts#L59)
+Defined in: [query-constraint/query-constraint.ts:59](https://github.com/aonawale/sanity-query/blob/1ce6c12e061c570199ba4b551babbeeb551f866a/src/query-constraint/query-constraint.ts#L59)
 
 A function that builds a slice query.
 

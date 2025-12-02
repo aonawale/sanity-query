@@ -38,7 +38,7 @@
     "postversion": "npm publish"
   },
   "peerDependencies": {
-    "@sanity/client": "^6.0.0"
+    "@sanity/client": "^7.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
